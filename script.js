@@ -49,11 +49,6 @@ function saveProfile() {
     loadProfile();
 }
 
-function cancelEdit() {
-    document.getElementById("form-section").style.display = "none";
-    document.getElementById("profile").style.display = "flex";
-}
-
 function resetProfile() {
     localStorage.clear(); 
 
